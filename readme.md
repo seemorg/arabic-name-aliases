@@ -30,9 +30,7 @@ Ensure Node.js is installed on your system to use this script. Follow these step
 1. **Prepare the Input List:** Create an `input.json` file with the names you wish to process. For example, to generate spellings for "محمد", your `input.json` should look like this:
 
    ```json
-   {
-     "names": ["محمد"]
-   }
+     ["محمد"]
    ```
 
 2. **Generate Spellings:** Run the script to generate different spellings for the names:
@@ -70,9 +68,7 @@ Ensure Node.js is installed on your system to use this script. Follow these step
 To generate spellings for other names, simply modify the `input.json` file accordingly. The script is designed to handle lists of names, so you can include as many as needed:
 
 ```json
-{
-  "names": ["محمد", "أحمد", "يوسف"]
-}
+["محمد", "أحمد", "يوسف"]
 ```
 
 ## Contributions
