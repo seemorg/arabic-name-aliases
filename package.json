@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "openai": "^4.28.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}
